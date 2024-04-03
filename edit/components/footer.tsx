@@ -1,8 +1,8 @@
 import  XIcon  from "@mui/icons-material/X"
-import YoutubeIcon from "@mui/icons-material/Youtube"
 import EmailIcon from "@mui/icons-material/Email"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import Link from "next/link"
+import { Youtube } from 'lucide-react';
 
 
 export const Footer = () => {
@@ -17,7 +17,7 @@ export const Footer = () => {
         },
         {
             href: 'https://www.youtube.com/@Vfxbenlee',
-            icon: <YoutubeIcon className="h-10 w-10"/>,
+            icon: <Youtube className="h-10 w-10"/>,
         },
         {
             href:'mailto:vfxbenlee@gmail.com',

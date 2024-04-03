@@ -3,7 +3,7 @@ import YoutubeIcon from "@mui/icons-material/Youtube"
 import EmailIcon from "@mui/icons-material/Email"
 import InstagramIcon from "@mui/icons-material/Instagram"
 import Link from "next/link"
-import { X } from "lucide-react"
+
 
 export const Footer = () => {
     const links = [
